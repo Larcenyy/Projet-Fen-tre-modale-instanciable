@@ -30,6 +30,9 @@ myConfirm.addEventListener("click", function (){
       Open()
       console.log(check)
    }
+   else{
+      alert("Vous n'avez accepter nos conditions..")
+   }
    myCancel.addEventListener("click", function (){
       Close()
    })
